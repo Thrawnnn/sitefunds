@@ -45,7 +45,7 @@ end
 
 if showHUD() then 
 
-    hook.Add("HUDPaintBackground", "yes", function() -- hook for the HUD so that we can use the draw library and such, also draws the HUD itself :yawning_face:
+    hook.Add("HUDPaintBackground", "FundsOverlay", function() -- hook for the HUD so that we can use the draw library and such, also draws the HUD itself :yawning_face:
     
         surface.SetDrawColor( 35, 35, 35, 255 )
         surface.SetMaterial( DevMat )
