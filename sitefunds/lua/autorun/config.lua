@@ -8,3 +8,7 @@ config.Multiplier = val2 / 5 + val1
 config.FundIncrement = 20 - config.Multiplier -- Increment per second of the funds
 config.HudEnable = true
 config.showhud = 1 -- 1 is yes, anything else is no. Requires a restart to change.
+
+config.weapon1 = ""
+config.weapon2 = ""
+config.weapon3 = ""
