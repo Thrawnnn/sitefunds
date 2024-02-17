@@ -1,1 +1,21 @@
+config = {}
 
+config.DefaultFunds = 5000 -- Required config number
+config.FundIncrement = 1 -- Increment per second of the funds
+config.HudEnable = false
+config.LowTierWeapons = {"plutonic_usp", "plutonic_mcx"} -- choose the weapons you want when there are less funds
+config.HighTierWeapons = {"plutonic_357", "plutonic_zoomar2"} -- choose the weapons you want for when there are more funds
+config.Health = {110, 125} -- First value is low tier when there are less funds, second value is high tier when there are more funds
+config.Armor = {15, 25} -- First value is low tier when there are less funds, second value is high tier when there are more funds
+hasClaimedArmor = false
+hasClaimedHealth = false
+config.ltwepmodels = {Model("models/weapons/w_pist_usp.mdl"), Model("models/weapons/w_rif_galil.mdl")} -- Models that should be shown in the UI
+config.ltwepnames = {"USP MATCH", "MCX VIRTUS"} -- what should be shown in the vgui element
+config.claimedlow = {false, false}
+config.claimedhigh = {false, false}
+config.ltwepprice = {150, 200}
+config.htwepprice = {250, 300}
+config.htwepmodels = {Model("models/weapons/w_357.mdl"), Model("models/weapons/w_irifle.mdl")} -- Models that should be shown in the UI
+config.htwepnames = {"357. MAGNUM", "PULSE RIFLE"} -- what should be shown in the vgui element
+config.commandmodulemodel = Model("models/props_combine/combine_intmonitor001.mdl")
+config.vendormodel = Model("models/props_lab/reciever_cart.mdl")
